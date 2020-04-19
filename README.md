@@ -1,5 +1,8 @@
 # termux-launcher
-A sample app list file is included.
+A sample "app_list" file is included.
+
+The app_list is updated every time the app is launched.
+
 The name of the script is "open"
 
 If anyone can help with the auto completion, please do.
