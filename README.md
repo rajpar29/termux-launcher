@@ -1,7 +1,6 @@
 # termux-launcher
 
-[Imgur](https://i.imgur.com/MAb5I6c.mp4)
-
+[Autocompletion](https://i.imgur.com/G0r5U2f.gifv)
 
 A sample "app_list" file is included.
 
