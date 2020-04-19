@@ -1,0 +1,179 @@
+aarogya setu|nic.goi.aarogyasetu/.views.SplashActivity
+adm|com.dv.adm/com.dv.get.Main
+adobe acrobat|com.adobe.reader/.AdobeReader
+adobe scan|com.adobe.scan.android/.SplashActivity
+akonnect|org.dadabhagwan.AKonnect/.MainActivity
+alarmy|droom.sleepIfUCan.pro/droom.sleepIfUCan.view.activity.MainActivity
+amazon shopping|in.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity
+ampere|com.gombosdev.ampere/.MainActivity
+any.do|com.anydo/.activity.SplashActivity
+assistant|com.google.android.apps.googleassistant/.AssistantActivity
+aug l pro|g.app.augl.auglpro/.YesItIsPro
+aug launcher|g.app.gl.al/.HomeActivity
+authenticator|com.tcs.totp/.activity.Splashscreen
+bhim|in.org.npci.upiapp/.HomeActivity
+blackmart|org.blackmart.market/.ui.HomeActivity
+boost|com.rubenmayayo.reddit/.ui.submissions.subreddit.MainActivity
+brain wars|jp.co.translimit.brainwars/.AppActivity
+browser|com.android.browser/.BrowserActivity
+calculator|com.miui.calculator/.cal.CalculatorActivity
+calendar|com.google.android.calendar/com.android.calendar.AllInOneActivity
+camera|com.android.camera/.Camera
+camscanner|com.intsig.camscanner/.launcher.WelcomeDefaultActivity
+chrome|com.android.chrome/com.google.android.apps.chrome.Main
+clock|com.android.deskclock/.DeskClockTabActivity
+compass|com.miui.compass/.CompassActivity
+contacts and dialer|com.android.contacts/.activities.PeopleActivity
+coolwinks|com.coolwinks.cwapp/.activities.Splash
+digital wellbeing|com.google.android.apps.wellbeing/.settings.LauncherActivity
+discord|com.discord/.app.AppActivity$Main
+docs|com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.NewMainProxyActivity
+downloads|com.android.providers.downloads.ui/.DownloadList
+drive|com.google.android.apps.docs/.app.NewMainProxyActivity
+duo|com.google.android.apps.tachyon/.MainActivity
+f-droid|org.fdroid.fdroid/.views.main.MainActivity
+facebook|com.facebook.katana/.LoginActivity
+fasthub|com.fastaccess.github/com.fastaccess.ui.modules.main.MainActivity
+file manager|com.mi.android.globalFileexplorer/com.android.fileexplorer.FileExplorerTabActivity
+files|com.google.android.apps.nbu.files/.home.HomeActivity
+firebase_crud|com.sample.fireWorkTest/com.example.firebase_crud.MainActivity
+fit|com.google.android.apps.fitness/.welcome.WelcomeActivity
+fleksy|com.syntellia.fleksy.keyboard/com.syntellia.fleksy.settings.activities.SplashActivity
+flipkart|com.flipkart.android/.SplashActivity
+flud|com.delphicoder.flud/.MainActivity
+fm radio|com.miui.fm/com.miui.fmradio.FmActivity
+gaana|com.gaana/.SplashScreenActivity
+gallery|com.miui.gallery/.activity.HomePageActivity
+getapps|com.xiaomi.mipicks/.DefaultAlias
+github|com.github.android/.activities.MainActivity
+gmail|com.google.android.gm/.ConversationListActivityGmail
+go free|uk.co.aifactory.gofree/.GoFreeActivity
+google|com.google.android.googlequicksearchbox/.SearchActivity
+google indic keyboard|com.google.android.apps.inputmethod.hindi/com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity
+google opinion rewards|com.google.android.apps.paidtasks/.activity.LaunchActivity
+google pay|com.google.android.apps.nbu.paisa.user/.launcher.LauncherActivity
+google play games|com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity
+google play movies  tv|com.google.android.videos/.activity.LauncherActivity
+google play music|com.google.android.music/com.android.music.activitymanagement.TopLevelActivity
+google play store|com.android.vending/.AssetBrowserActivity
+google podcasts|com.google.android.apps.podcasts/.PodcastsActivity
+hackers keyboard|org.pocketworkstation.pckeyboard/.Main
+hdfc bank|com.snapwork.hdfc/com.hdfc.retail.netbanking.HDFCBank
+hike|com.hike.chat.stickers/com.bsb.hike.default
+impact|com.sharesmile.share/.splashscreen.SplashScreen
+indian meme|com.ammdhillon.indianmemepack/.EntryActivity
+indian templates|com.curiositycurve.www.indiantemplates/.MainActivity
+infinity|ml.docilealligator.infinityforreddit/.Activity.MainActivity
+inshorts|com.nis.app/.ui.activities.HomeActivity
+instagram|com.instagram.android/.activity.MainTabActivity
+into the dead|com.sidheinteractive.sif.DR/com.pikpok.PikPokUnityActivity
+irctc rail connect|cris.org.in.prs.ima/cris.org.in.ima.activities.IRCTCConnectActivity
+kami 2|com.stateofplaygames.kami2/com.unity3d.player.UnityPlayerActivity
+keep notes|com.google.android.keep/.activities.BrowseActivity
+kore|org.xbmc.kore/.ui.sections.remote.RemoteActivity
+lens|com.google.ar.lens/com.google.vr.apps.ornament.app.lens.LensLauncherActivity
+lightroom|com.adobe.lrmobile/.StorageCheckActivity
+linkedin|com.linkedin.android/.authenticator.LaunchActivity
+maadhaar|in.gov.uidai.mAadhaarPlus/.MainActivity
+maps|com.google.android.apps.maps/com.google.android.maps.MapsActivity
+meetup|com.meetup/.activity.Bootstrap
+meme generator free|com.zombodroid.MemeGenerator/com.zombodroid.memegen6source.SplashActivity
+messaging|com.android.mms/.ui.MmsTabActivity
+messenger lite|com.facebook.mlite/.coreui.view.MainActivity
+mi fit|com.xiaomi.hm.health/.activity.StartUpActivity
+mi pay|com.mipay.wallet.in/com.mipay.home.ui.SplashActivity
+mi remote|com.duokan.phone.remotecontroller/com.xiaomi.mitv.phone.remotecontroller.HoriWidgetMainActivityV2
+mi video|com.miui.videoplayer/com.miui.video.global.app.LauncherActivity
+music|com.miui.player/.ui.MusicBrowserActivity
+mx player|com.mxtech.videoplayer.ad/.ActivityWelcomeMX
+my application|com.rpapps.myapplication/.MainActivity
+myvodafone|com.mventus.selfcare.activity/.MainActivity
+nada temp mail|com.startfu.nadamail/com.tns.NativeScriptActivity
+nonogram|com.easybrain.nonogram/.SplashActivity
+notes|com.miui.notes/.ui.NotesListActivity
+ola|com.olacabs.customer/.ui.SplashActivity
+pako|com.treemengames.pako/com.unity3d.player.UnityPlayerActivity
+paper.io 2|io.voodoo.paper2/.UnityPlayerActivity
+paytm|net.one97.paytm/.AJRJarvisSplash
+pc creator|com.ultraandre.pccreator/com.unity3d.player.UnityPlayerActivity
+phonepe|com.phonepe.app/.v4.nativeapps.splash.Navigator_SplashActivity
+photos|com.google.android.apps.photos/.home.HomeActivity
+ping|ru.otdr.ping/.MainActivity
+play console|com.google.android.apps.playconsole/.activity.MainAndroidActivity
+poco launcher|com.mi.android.globallauncher/com.miui.home.launcher.SplashActivity
+popcorn time|io.free_time.mobile/se.popcorn_time.mobile.ui.MainActivity
+prajval|in.service.prajval/.MainActivity
+pubg mobile|com.tencent.ig/com.epicgames.ue4.SplashActivity
+pydroid 3|ru.iiec.pydroid3/ru.iiec.pydroid.MainActivity
+quiz -gk, science, entertainment|com.rpapps.quiz/.MainActivity
+readera|org.readera/com.readera.MainActivity
+recorder|com.android.soundrecorder/.SoundRecorder
+reddit|com.reddit.frontpage/.StartActivity
+reelo|com.eonian.reelo/.ui.splash.SplashActivity
+riyaz|com.musicmuni.riyaz/.activities.user.SplashScreenActivity
+scanner|com.xiaomi.scanner/.app.ScanActivity
+screen recorder|com.kimcy929.screenrecorder/.activity.MainActivity
+security|com.miui.securitycenter/com.miui.securityscan.MainActivity
+services  feedback|com.miui.miservice/.main.MainActivity
+settings|com.android.settings/.MainSettings
+shareme|com.xiaomi.midrop/.SplashScreen
+shazam lite|com.shazam.android.lite/.ui.SplashActivity
+sheets|com.google.android.apps.docs.editors.sheets/com.google.android.apps.docs.app.NewMainProxyActivity
+slack|com.Slack/.ui.HomeActivity
+sms organizer|com.microsoft.android.smsorganizer/.StartupActivity
+solid explorer|pl.solidexplorer2/pl.solidexplorer.SolidExplorer
+sololearn|com.sololearn/.app.activities.LauncherActivity
+spotify|com.spotify.music/.MainActivity
+stack exchange|com.stackexchange.marvin/.ui.LaunchActivity
+steam|com.valvesoftware.android.steam.community/.activity.MainActivity
+swiggy|in.swiggy.android/.activities.HomeActivity
+sync|com.laurencedawson.reddit_sync/.ui.activities.HomeActivity
+system tracing|com.android.traceur/.MainActivity
+tata sky|com.ryzmedia.tatasky/.splash.SplashActivity
+telegram|org.telegram.messenger/org.telegram.ui.LaunchActivity
+tempmail|com.tempmail/.splash.SplashActivity
+termux|com.termux/.app.TermuxActivity
+termux launcher|com.rpapps.termux_launcher/.MainActivity
+that level again 4|ru.iamtagir.tla4/com.unity3d.player.UnityPlayerActivity
+themes|com.android.thememanager/.ThemeResourceTabActivity
+thunderpod|com.thunderpod.zeus/.MainActivity
+timesheet|com.tcs.ipms/.MainActivity
+titanium tv|com.noname.titanium/.ui.activity.HomeActivity
+torrse|com.torrse.torrentsearch/.SplashActivity
+traffic rider|com.skgames.trafficrider/com.prime31.UnityPlayerNativeActivity
+translate|com.google.android.apps.translate/.TranslateActivity
+trivago|com.trivago/.ui.main.MainActivity
+truecaller|com.truecaller/.ui.TruecallerInit
+turbo vpn|free.vpn.unblock.proxy.turbovpn/.activity.VpnMainActivity
+tv time|com.tozelabs.tvshowtime/.activity.KMainActivity_
+twitter|com.twitter.android/.StartActivity
+u-mobile|com.infrasoft.uboi/.UBIMADPPROD
+uber|com.ubercab/.presidio.app.core.root.RootActivity
+udemy|com.udemy.android/.SplashActivity
+union rewardz|com.unionrewardz/com.rewardz.l42.l42MemberModule.activities.SplashScreenActivity
+ux apps|com.tcs.android.tcsappstore/.activities.SplashActivity
+vertical adventure|com.rikudogames.verticaladventure/com.google.firebase.MessagingUnityPlayerActivity
+veyg_2k20|com.saffrony.veyg_2020/.MainActivity
+vim master|develop.example.beta1139.vimmaster/.activity.TitleActivity
+vlc|org.videolan.vlc/.StartActivity
+vodafone play|com.vodafone.vodafoneplay/com.myplex.vodafone.ui.activities.LoginActivity
+vysor|com.koushikdutta.vysor/.StartActivity
+walk band|com.gamestar.pianoperfect/.Splash
+water_reminder_app|com.example.water_reminder_app/.MainActivity
+weather|com.miui.weather2/.ActivityWeatherMain
+webex meet|com.cisco.webex.meetings/.ui.premeeting.welcome.WebExMeeting
+whatsapp|com.whatsapp/.Main
+whisper|sh.whisper/.WMainActivity
+windy|com.windyty.android/.MainActivity
+word|com.microsoft.office.word/com.microsoft.office.apphost.LaunchActivity
+workspace|com.citrix.Receiver/com.citrix.client.Receiver.ui.activities.SplashActivity
+wps office|cn.wps.moffice_eng/cn.wps.moffice.documentmanager.PreStartActivity
+wps wpa tester|com.tester.wpswpatester/as.wps.wpatester.ui.splash.SplashActivity
+xender|cn.xender/.ui.activity.SplashActivity
+xodo docs|com.xodo.pdf.reader/viewer.CompleteReaderMainActivity
+youth|org.dadabhagwan.youth/.MainActivity
+youtube|com.google.android.youtube/.app.honeycomb.Shell$HomeActivity
+youtube vanced|com.vanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity
+zedge ringtones  wallpapers|net.zedge.android/.Main
+zomato|com.application.zomato/.activities.Splash
+zombie catch|fi.twomenandadog.zombiecatchers/.ZCActivity

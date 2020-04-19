@@ -1,0 +1,32 @@
+#!/bin/bash
+
+launch()
+{
+	package=`awk -v search="$search" -F"|" '$1==search {print $2}' $file`
+	am start -n $package --user 0 &> /dev/null
+	echo launch $1
+}
+
+show_suggestions()
+{
+	matched_apps=`awk -v search="$1" -F"|" ' $1 ~ search {print $1," | "}' $file` 
+	echo $matched_apps
+	exit
+}
+
+
+file=${EXTERNAL_STORAGE}/termux_launcher/.apps-list
+search=`echo "${@}" | awk '{print tolower($0)}'` 
+len=`awk -v search="$search" -F"|" '$1==search {count++} END {print count}' $file`
+
+case $len in
+
+	#case 1
+	1) 	launch $search
+	;;
+
+	#case 3
+	*) 	show_suggestions $search
+	;;
+esac
+
