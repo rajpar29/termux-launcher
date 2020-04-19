@@ -2,31 +2,45 @@
 
 launch()
 {
-	package=`awk -v search="$search" -F"|" '$1==search {print $2}' $file`
+	package=`awk -v search="$1" -F"|" '$1==search {print $2}' $file`
 	am start -n $package --user 0 &> /dev/null
-	echo launch $1
+	echo Launching $1
+	exit
 }
 
 show_suggestions()
 {
-	matched_apps=`awk -v search="$1" -F"|" ' $1 ~ search {print $1," | "}' $file` 
-	echo $matched_apps
-	exit
+	#matched_apps=`awk -v search="$1" -F"|" ' $1 ~ search {print $1}' $file | xargs -r $EDITOR ` 
+	app=`awk -v search="$1" -F"|" ' $1 ~ search {print $1}' $file | fzf`   
+	if [ "$esc_count" == "$a" ]
+	then
+		esc_count="0"
+		exit
+	fi
+	esc_count="1"
+	search $app
 }
 
 
-file=${EXTERNAL_STORAGE}/termux_launcher/.apps-list
-search=`echo "${@}" | awk '{print tolower($0)}'` 
-len=`awk -v search="$search" -F"|" '$1==search {count++} END {print count}' $file`
+search()
+{
+
+len=`awk -v search="$1" -F"|" '$1==search {count++} END {print count}' $file`
 
 case $len in
 
 	#case 1
-	1) 	launch $search
+	1) 	launch $1
 	;;
 
 	#case 3
-	*) 	show_suggestions $search
+	*) 	show_suggestions $1
 	;;
 esac
 
+}
+esc_count="0"
+a="1"
+file=${EXTERNAL_STORAGE}/termux_launcher/.apps-list
+inp_name=`echo "${@}" | awk '{print tolower($0)}'` 
+search $inp_name
