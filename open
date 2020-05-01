@@ -2,16 +2,16 @@
 
 launch()
 {
-	package=`awk -v search="$1" -F"|" '$1==search {print $2}' $file`
+	inp_name=$@
+	package=`awk -v search="$inp_name" -F"|" '$1==search {print $2}' $file`
 	am start -n $package --user 0 &> /dev/null
-	echo Launching $1
+	echo Launching $inp_name
 	exit
 }
 
 show_suggestions()
 {
-	#matched_apps=`awk -v search="$1" -F"|" ' $1 ~ search {print $1}' $file | xargs -r $EDITOR ` 
-	app=`awk -v search="$1" -F"|" ' $1 ~ search {print $1}' $file | fzf`   
+	app=$(awk -v search="$1" -F"|" ' $1 ~ search {print $1}' $file | fzf)
 	if [ "$esc_count" == "$a" ]
 	then
 		esc_count="0"
@@ -24,17 +24,16 @@ show_suggestions()
 
 search()
 {
-
-len=`awk -v search="$1" -F"|" '$1==search {count++} END {print count}' $file`
-
+inp_name=$@
+len=`awk -v search="$inp_name" -F"|" '$1==search {count++} END {print count}' $file`
 case $len in
 
 	#case 1
-	1) 	launch $1
+	1) 	launch $inp_name
 	;;
 
 	#case 3
-	*) 	show_suggestions $1
+	*) 	show_suggestions $inp_name
 	;;
 esac
 
