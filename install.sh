@@ -7,7 +7,6 @@ cd $PREFIX/bin && {
   echo "Insatlling"
   chmod 777 open;
   cd -;
-  echo $?
   echo "Make sure the termux launcher app is installed."
   echo "open <app name>"
    }
