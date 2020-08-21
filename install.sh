@@ -2,13 +2,12 @@
 
 echo "starting"
 cd $PREFIX/bin && {
-  echo "start"
+  echo "Fetching script"
   curl -O https://raw.githubusercontent.com/rajpar29/termux-launcher/master/open ;
-  echo "downloaded"
+  echo "Insatlling"
   chmod 777 open;
-  echo "changed mode"
   cd -;
-  echo "Changed Dir"
   echo $?
-  echo "END"
+  echo "Make sure the termux launcher app is installed."
+  echo "open <app name>"
    }
